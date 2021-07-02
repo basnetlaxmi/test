@@ -8,6 +8,38 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" value="Type your name" />
+            <br>
+            <label for="age">Age</label> 
+            <input type="number" id="age"/>
+            <br>
+            <label for="car">Which car is the best?</label>
+            <select id="car">
+                <option value="car1">Car1</option>
+                <option value="car2">Car2</option>
+                <option value="car3">Car3</option>
+            </select>
+            <br>
+            <label for="text">Textarea</label>
+            <textarea id="text" cols="20" rows="10"></textarea>
+            <br>
+            <h2>What is your job?</h2>
+            <br>
+            
+            <input type="radio" name="job" value="student" id="student"/>
+            <label for="student">Student</label>
+            <br>
+            
+            <input type="radio" name="job" value="frontend" id="frontend"/>
+            <label for="frontend"> Front End</label>
+            <br>
+            
+            <input type="radio" name="job" value="backend" id="backend"/>
+            <label for="backend">Back end</label>
+            <br>
+            <input type="submit" value="submit" >
+        </form>
     </body>
 </html>
